@@ -1,6 +1,7 @@
 pub mod lexer;
 pub mod parser;
 
+#[derive(Clone, Debug)]
 pub enum Tokentype {
      IncreamentPointer, // >
      DecreamentPointer, // <
